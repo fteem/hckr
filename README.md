@@ -23,7 +23,7 @@ Run ```hckr```
 
 #### Options
 
-* ```home```, ```-h``` or ```--home``` returns links from the Show HN page
+* ```home```, ```-h``` or ```--home``` returns links from the HN home page
 * ```show```, ```-s``` or ```--show``` returns links from the Show HN page
 * ```jobs```, ```-j``` or ```--jobs``` returns links from the jobs section
 * ```newest```, ```-n``` or ```--newest``` returns links from the newest section
