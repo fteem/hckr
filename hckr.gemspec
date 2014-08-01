@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Hckr::VERSION
   spec.authors       = ["Ile Eftimov"]
   spec.email         = ["ileeftimov@gmail.com"]
-  spec.summary       = %q{Browse Hackernews via CLI. Or get some JSON love.}
-  spec.description   = %q{}
-  spec.homepage      = ""
+  spec.summary       = %q{Browse Hackernews via CLI.}
+  spec.description   = %q{Browse Hackernews via CLI. Or get some JSON love.}
+  spec.homepage      = "http://github.com/fteem/hckr"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
