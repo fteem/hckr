@@ -19,9 +19,9 @@ Or install it yourself as:
 ## Usage
 
 ### Via CLI
-```hckr```
+Run ```hckr```
 
-#### Options:
+#### Options
 
 * ```home```, ```-h``` or ```--home``` returns links from the Show HN page
 * ```show```, ```-s``` or ```--show``` returns links from the Show HN page
