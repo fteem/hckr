@@ -1,0 +1,33 @@
+#!/usr/bin/env ruby
+
+
+path = File.expand_path(File.dirname(__FILE__))
+$:<< "#{path}/../lib"
+
+require 'hckr'
+
+case ARGV[0]
+when "show", "-s", "--show"
+  Hckr::Runner.new(page: :show).run!
+when "jobs", "-j", "--jobs"
+  Hckr::Runner.new(page: :jobs).run!
+when "newest", "-n", "--newest"
+  Hckr::Runner.new(page: :newest).run!
+when "best", "-b", "--best"
+  Hckr::Runner.new(page: :best).run!
+when "home", "-h", "--home"
+  Hckr::Runner.new(page: :default).run!
+when "help", "--help"
+  puts "\nUsage: hckr [OPTION]"
+  puts "\n\tBrowse Hackernews in terminal."
+  puts "\nExample: hckr --jobs"
+  puts "\nOptions:"
+  puts "show/-s/--show \t \t returns Show HN page."
+  puts "jobs/-j/--jobs  \t returns HN jobs page."
+  puts "best/-b/--best  \t returns HN best page."
+  puts "newest/-n/--newest  \t returns newest HN posts page."
+  puts "*no options* \t\t returns the HN homepage."
+  puts "\n"
+else
+  Hckr::Runner.new(page: :default).run!
+end
