@@ -1,6 +1,6 @@
 # Hckr
 
-Hckr is a gem that allows browsing Hackernews via CLI.
+Browse Hackernews from the command line. Or get some JSON.
 
 ## Installation
 
@@ -20,6 +20,7 @@ Or install it yourself as:
 
 ### Via CLI
 ```hckr```
+
 #### Options:
 * ```home```, ```-h``` or ```--home``` returns links from the Show HN page
 * ```show```, ```-s``` or ```--show``` returns links from the Show HN page
@@ -42,7 +43,7 @@ which will return a JSON of the jobs HN page.
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/hckr/fork )
+1. Fork it ( http://github.com/fteem/hckr/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
